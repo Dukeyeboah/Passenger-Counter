@@ -6,15 +6,18 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Passenger Numbers:</h1>
-        <h2 id="count-el">0</h2>
-        <div id="btns">
-            <button id="increment-btn" onclick="increment()"> INCREMENT </button>
-            <button id="save-btn" onclick="save()"> SAVE </button>
+    <div class="bigger-container">
+        <div class="container">
+            <h1>Passenger Numbers:</h1>
+            <h2 id="count-el">0</h2>
+            <div id="btns">
+                <button id="increment-btn" onclick="increment()"> INCREASE </button>
+                <button id="save-btn" onclick="save()"> SAVE </button>
+            </div>
             <p id="save-el"> Previous Entries: </p>
+            <button id="reset-btn" onclick="reset()"> RESET </button>
+            <script src="index.js"></script>
         </div>
-        <script src="index.js"></script>
     </div>
 </body>
 
