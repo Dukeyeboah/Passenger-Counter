@@ -141,13 +141,12 @@ button {
         display:flex;
         flex-direction:column;
         align-items: center;
-        padding: 1rem;
         background-size:cover;
         box-shadow: 2px 2px 5px black;
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width:800px) {
     .bigger-container{
         width:100%;
         background-color:#0a0a0a;
@@ -165,7 +164,6 @@ button {
         display:flex;
         flex-direction:column;
         align-items: center;
-        padding: 1rem;
         box-shadow: 2px 2px 5px whitesmoke;
     }
 }
