@@ -26,9 +26,9 @@ body {
     /* background: rgba(240, 248, 255, 0.397); */
     background-size:cover;
     width: 80vw;
-    max-width: 500px;
+/*     max-width: 500px; */
     height: 80vh;
-    max-height: 800px;
+/*     max-height: 800px; */
     margin:auto;
     border-radius: 10px;
     display:flex;
