@@ -66,13 +66,12 @@ h1 {
 
 button {
     border:none;
-    padding-top: 0.625em;
-    padding-bottom: 0.625em;
     color: black;
     font-weight: bold;
-    width: 9rem;
+    /* width: 9rem; */
     margin-bottom: 5px;
     border-radius: 10px;
+    padding:0.5rem 0.8rem;
 }
 
 #btns{
@@ -117,6 +116,7 @@ button {
 
 #reset-btn{
     background: crimson;
+    padding: 0.5rem 0.5rem;
     border:none;
     box-shadow: 0px 3px 4px grey;
     width:4rem;
@@ -139,3 +139,126 @@ button {
     padding:0.3rem;
     border-radius:6px;
 }
+
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+    .bigger-container{
+        background-color: #0c0c0c;
+        display:flex;
+        align-items: center;
+        height: 90vh;
+        width:90vw;
+        margin:auto;
+    }
+
+.container {
+    background-image: url("https://images.unsplash.com/photo-1630509866816-9737cc76e348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhJTIwcHVibGljJTIwdHJhbnNwb3J0YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size:cover;
+    width: 95%;
+    /* max-width: 250px; */
+    height: 95%;
+    /* max-height: 400px; */
+    margin:auto;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 4px lightcyan; 
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0.5rem 0.8rem;
+    text-shadow: 0 1px 3px whitesmoke;
+    font-size: 1rem;
+    background-color: rgba(240, 248, 255, 0.497);
+    border-radius:10px;
+    box-shadow: 0px -3px 4px darkslategrey inset;
+}
+
+#count-el {
+    font-size: 3.125rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border:none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding:0.5rem 0.8rem;
+}
+
+#btns{
+    display:flex;
+    flex-direction: column;
+    align-items:center;  
+}
+
+#increment-btn {
+    background:palegreen;
+    border:none;
+    box-shadow: 0px 3px 4px grey;
+}
+#increment-btn:hover,
+#increment-btn:active,
+#increment-btn:focus,
+#save-btn:hover,
+#save-btn:active,
+#save-btn:focus,
+#reset-btn:hover,
+#reset-btn:active,
+#reset-btn:focus {
+    box-shadow: 0px 3px 4px black;
+}
+#increment-btn:hover,
+#increment-btn:active,
+#increment-btn:focus{
+    background: mediumspringgreen;
+}
+
+#save-btn {
+    background: lightcyan;
+    margin-top: 20px;
+    border:none;
+    box-shadow: 0px 3px 4px grey;
+}
+#save-btn:hover,
+#save-btn:active,
+#save-btn:focus {
+    background: lightskyblue;
+}
+
+#reset-btn{
+    background: crimson;
+    padding: 0.5rem 0.5rem;
+    border:none;
+    box-shadow: 0px 3px 4px grey;
+    width:4rem;
+    font-size:0.8rem;
+    box-shadow: 0px -3px 4px darkred inset;
+    margin-top:15px;
+}
+
+#reset-btn:hover,
+#reset-btn:active,
+#reset-btn:focus {
+    background: red;
+}
+
+#save-el{
+    color: black;
+    text-shadow: 0 1px 3px whitesmoke;
+    margin:1rem;
+    background:rgba(100, 200, 255, 0.267); 
+    padding:0.3rem;
+    border-radius:6px;
+}
+     }
