@@ -27,8 +27,8 @@ body {
     background-size:cover;
     width: 80vw;
     max-width: 250px;
-    height: 85vh;
-    max-height: 400px;
+    height: 80vh;
+    max-height: 800px;
     margin:auto;
     border-radius: 10px;
     display:flex;
