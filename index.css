@@ -28,7 +28,8 @@ body {
     background-image: url("https://images.unsplash.com/photo-1630509866816-9737cc76e348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhJTIwcHVibGljJTIwdHJhbnNwb3J0YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
     /* background: rgba(240, 248, 255, 0.397); */
     background-size:cover;
-    width: 90%;
+    max-width:500px;
+    width: 60%;
     height: 90%;
     margin:auto;
     border-radius: 10px;
